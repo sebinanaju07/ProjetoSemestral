@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="IMG/Icone.png">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <div class="divisao">
+            <ul class="menu">
+                <div class="logo">
+                    <img src="IMG/Logo.png" id="logo">
+                </div>
+                <a href=""> <li>INÍCIO</li> </a>
+                <a href=""> <li>IDEIAS DE DESENHOS</li> </a>
+                <a href=""> <li>MAPA DE DORES</li> </a>
+                <a href=""> <li>ENDEREÇO</li> </a>
+                <a href=""> <li>FICHA DE TATUAGEM</li> </a>
+                <a href=""> <li>FORMULÁRIO</li> </a>
+            </ul>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <img src="IMG/Banner 1.png" class="inicio">
+                </div>
+                <div class="mySlides fade">
+                  <img src="IMG/Banner 2.png" class="inicio">
+                </div>
+                <div class="mySlides fade">
+                  <img src="IMG/Banner 3.png" class="inicio">
+                </div>
+                </div>
+                <br>
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+                <script>
+                    let slideIndex = 0;
+                    showSlides();
+                    function showSlides() {
+                      let i;
+                      let slides = document.getElementsByClassName("mySlides");
+                      let dots = document.getElementsByClassName("dot");
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                      }
+                      slideIndex++;
+                      if (slideIndex > slides.length) {slideIndex = 1}    
+                      for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                      setTimeout(showSlides, 2000);
+                    }
+                </script>
+        </div>
+        <div class="divisao-2">
+            <div class="desenhos">
+                <p>IDEIAS DE DESENHOS</p>
+            </div>
+            <div>
+                <img src="IMG/1.png" class="tatto">
+                <img src="IMG/2.png" class="tatto">
+                <img src="IMG/3.png" class="tatto">
+                <img src="IMG/4.png" class="tatto">
+            </div>
+            <div class="desenhos-2">
+                <p>TIPOS DE TATUAGEM</p>
+            </div>
+            <div>
+                <div class="tipos">
+                    <div>
+                        <img src="IMG/01 Aquarela.png" class="tatuagem-1">
+                    </div>
+                    <div>
+                        <img src="IMG/02 Black.png" class="tatuagem-1">
+                    </div>
+                    <div>
+                        <img src="IMG/03 Coloridas.png" class="tatuagem-1">
+                    </div>
+                    <div>
+                        <img src="IMG/04 Fine line.png" class="tatuagem-1">
+                    </div>
+                    <div>
+                        <img src="IMG/05 Geométrica.png" class="tatuagem-1">
+                    </div>
+                </div>
+                <div class="tipos">
+                    <div>
+                        <img src="IMG/06 Maori.png" class="tatuagem-1">
+                    </div>
+                    <div>
+                        <img src="IMG/07 Oriental.png" class="tatuagem-1">
+                    </div>
+                    <div>
+                        <img src="IMG/08 Realismo.png" class="tatuagem-1">
+                    </div>
+                    <div>
+                        <img src="IMG/09 School.png" class="tatuagem-1">
+                    </div>
+                    <div>
+                        <img src="IMG/10 Tradicional.png" class="tatuagem-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divisao-4">
+            <div class="desenhos-4">
+                <p>MAPA DE DORES</p>
+            </div>
+            <div class="doi">
+                <img src="IMG/sem fundo.png" class="dodoi">
+            </div><br><br>
+            <div class="descricao">
+                <p class="color-1">Pouca dor</p>
+                <p class="color-2">Dor moderada</p>
+                <p class="color-3">Dor intensa</p>
+                <p class="color-4">Muita dor</p>
+            </div>
+        </div>
+        <div class="divisao">
+            <div class="desenhos-5">
+                <p>ENDEREÇO</p>
+            </div>
+            <div class="localiza">
+                <div class="sp">
+                    <img src="IMG/loca.png" class="loca">
+                </div>
+                <div class="ender">
+                    <p>CEP:04302-021<br><br>
+                        RUA: Rua Paracatu<br><br>
+                        BAIRRO: Parque Imperial<br><br>
+                        CIDADE: São Paulo<br><br>
+                        ESTADO: SP</p>
+                </div>
+            </div>
+        </div>
+        <div class="divisao-3">
+            <div class="desenhos-3">
+                <p>FICHA DE TATUAGEM</p>
+            </div>
+            <div class="birosca">
+                <img src="IMG/Agenda.png" class="negocio">
+            </div>
+        </div>
+        <br><br><br>
+        <div class="divisao-15">
+            <form>
+                <center><p class="desenhos">❤💀 PREENCHA O FORMUÁRIO 💀❤</h1></center>
+                <br>
+                <br>
+                <img src="IMG/usuário.png" class="usuario">
+                Digite seu nome: <input type=text name="Nome" size="40" placeholder="Digite seu nome"><br><br>
+                Sexo:
+                <img src="IMG/feminino.png" class="mulher">
+                <input type="radio" name="sexo" value="feminino" > Feminino
+                <img src="IMG/masculino.png" class="homen">
+                <input type="radio" name="sexo" value="masculino">Masculino
+                <br><br>  
+                <img src="IMG/data de aniversário.png" class="nasci">
+                Data de nascimento: <input type="date" name="nascimento"> <br> 
+                <br>  
+                <img src="IMG/email.png" class="mail">
+                E-mail: <input type="email" name="e-mail" placeholder="Digite seu e-mail aqui">
+                <br><br>  
+                <img src="IMG/whats.png" class="whats">
+                Whatssap: <input type=text name="Nome" size="40" placeholder="Digite seu WhatsApp">
+                <br><br>
+                Adicione a(as) fotos da tatuagem ou ideias💡 desejada ✔:<br><br>
+                <center>
+                <label class="custom-file-upload">
+                    <input type="file" id="fileUpload" name="fileUpload">
+                    Selecione o arquivo
+                </label>
+                <input class="fileTransfer" type="file" name="arquivos">
+                <br>
+                <label for="arquivo">Finalizar</label></center>
+            </form>
+        </div>
+        <br><br>
+        <div class="divisao">
+            <ul class="menu">
+                <div class="logo">
+                    <img src="IMG/Logo.png" id="logo">
+                </div>
+                <a href=""> <li>INÍCIO</li> </a>
+                <a href=""> <li>IDEIAS DE DESENHOS</li> </a>
+                <a href=""> <li>MAPA DE DORES</li> </a>
+                <a href=""> <li>ENDEREÇO</li> </a>
+                <a href=""> <li>FICHA DE TATUAGEM</li> </a>
+                <a href=""> <li>FORMULÁRIO</li> </a>
+            </ul>
+            <br><br><br><br>
+            <img src="IMG/Rodapé.png" class="pe">
+        </div>
+    </div>
+</body>
+</html>

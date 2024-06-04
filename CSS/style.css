@@ -1,0 +1,1206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    width: 100%;
+    height: 8200px;
+    color: white;
+    background-color: #282828;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 110px;
+    margin-left: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+    margin-left: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.inicio{
+    width: 1401px;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    width: 190px;
+    list-style-type: none;
+    margin-left: 35px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.divisao{
+    width: 100%;
+    height: 800px;
+}
+
+.divisao-2{
+    width: 100%;
+    margin-top: -150px;
+    height: 2510px;
+}
+
+.desenhos{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tatto{
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+}
+
+.doi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.dodoi{
+    width: 300px;
+}
+
+.descricao{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tipos{
+    display: flex;
+    flex-direction: row;
+}
+
+.tatuagem-1{
+    width: 280px;
+    margin-top: 45px;
+}
+
+.tatuagem-1:hover{
+    width: 300px;
+    margin-top: 45px;
+}
+
+.desenhos-4{
+    margin-top: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.desenhos-2{
+    margin-top: 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.divisao-4{
+    margin-top: 800px;
+}
+
+.color-1{
+    color: #FCFD0B;
+}
+
+.color-2{
+    color: #DC4418;
+}
+
+.color-3{
+    color: #F60302;
+}
+
+.color-4{
+    color: #0001D3 ;
+}
+
+.divisao-3{
+    margin-left: 15px;
+    align-items: center;
+}
+
+.birosca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.negocio{
+    width: 450px;
+    margin-top: 30px;
+}
+
+.desenhos-3{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.desenhos-5{
+    margin-top: 25px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.divisao-15{
+    margin-top: 1000px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    width: 1400px;
+    height: 1400px;
+}
+
+.enviar{
+    color:#000000;
+    background-color: rgb(255, 255, 255);
+    width: 65px;
+    font-size: 20px;
+}
+
+.estado{
+    color:#000000;
+}
+
+.cidades{
+    color:#000000;
+}
+
+.linha{
+    background-color: #ffffff;
+}
+
+input{
+    color:#000000;
+    border-radius: 3px;
+    font-family: 15px;
+    height: 35px;
+}
+
+.fileTransfer {
+    width: 100%;
+    height: 50px;
+    
+}
+
+input[type="file"]{
+   display: none;
+}
+
+label {
+    font-size: 14px;
+    padding: 10px 10px;
+    width: 200px;
+    background-color: #fbfbfb;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.usuario{
+    width: 50px;
+}
+
+.mulher{
+    width: 50px;
+}
+
+.homen{
+    width: 40px;
+}
+
+.nasci{
+    width: 50px;
+}
+
+.mail{
+    width: 50px;
+}
+
+.whats{
+    width: 50px;
+}
+
+.desenhos-15{
+    margin-top: 25px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.loca{
+    width: 580px;
+}
+
+.sp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.ender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    width: 50%;
+}
+
+.localiza{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#logo-2{
+    width: 150px;
+    height: auto;
+    margin-left: 25px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+}
+
+.pe{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 110px;
+    margin-left: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 1300px;
+    height: 1300px;
+    border: 5px solid rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input {
+    padding: 10px;
+    
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+input[type="file"] {
+    width: 200px;
+    height: 50px;
+    padding: 0; 
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="file"] {
+    display: none;
+}
+
+.form-group .custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px; 
+    height: 50px; 
+    line-height: 30px; 
+}
+
+@media only screen and (max-width: 1400px) {
+    .conteiner{
+        width: 1400px;
+        height: 9030px;
+        color: white;
+        background-color: #282828;
+    }
+    
+    .menu{
+        display: flex;
+        flex-direction: row;
+        width: 1380px;
+        height: 110px;
+        margin-left: -12px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #logo{
+        width: 80px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Verdana, sans-serif;
+        width: 100%;
+    }
+    
+    .inicio{
+        width: 1395px;
+    }
+    
+    .mySlides {
+        display: none;
+        width: 99%;
+    }
+    
+    li{
+        display: flex;
+        justify-content: center;
+        width: 160px;
+        list-style-type: none;
+        margin-left: 15px;
+        color: white;        
+    }
+    
+    .divisao{
+        width: 99%;
+        height: 800px;
+    }
+    
+    .divisao-2{
+        width: 99%;
+        margin-top: -150px;
+        height: 2510px;
+    }
+    
+    .desenhos{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tatto{
+        display: flex;
+        flex-direction: column;
+        width: 1400px;
+    }
+    
+    .doi{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+    }
+    
+    .dodoi{
+        width: 50%;
+    }
+    
+    .descricao{
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tatuagem-1{
+        width: 80%;
+        margin-top: 45px;
+    }
+    
+    .tatuagem-1:hover{
+        width: 88%;
+        margin-top: 45px;
+    }
+    
+    .desenhos-4{
+        margin-top: 80px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .desenhos-2{
+        margin-top: 20px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .negocio{
+        width: 450px;
+        margin-top: 30px;
+    }
+    
+    .desenhos-3{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .desenhos-5{
+        margin-top: 25px;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .divisao-15{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 1400px;
+    }
+    
+    .enviar{
+        color:#000000;
+        background-color: rgb(255, 255, 255);
+        width: 65px;
+        font-size: 20px;
+    }
+    
+    .desenhos-15{
+        margin-top: 25px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .loca{
+        width: 580px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .conteiner{
+        width: 1200px;
+        height: 8200px;
+        color: white;
+        background-color: #282828;
+    }
+    
+    .menu{
+        display: flex;
+        flex-direction: row;
+        width: 1200px;
+        height: 110px;
+        margin-left: 3px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #logo{
+        width: 80px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .inicio{
+        width: 1200px;
+    }
+    
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    li{
+        display: flex;
+        justify-content: center;
+        width: 190px;
+        list-style-type: none;
+        margin-left: -35px;
+        color: white;
+    }
+    
+    .divisao{
+        width: 99%;
+        height: 800px;
+    }
+    
+    .divisao-2{
+        width: 99%;
+        margin-top: -150px;
+        height: 2510px;
+    }
+    
+    .desenhos{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tatto{
+        display: flex;
+        flex-direction: column;
+        width: 1200px;
+    }
+    
+    .doi{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+    }
+    
+    .dodoi{
+        width: 200px;
+    }
+    
+    .descricao{
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tipos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tatuagem-1{
+        width: 225px;
+        margin-top: 45px;
+    }
+    
+    .tatuagem-1:hover{
+        width: 250px;
+        margin-top: 45px;
+    }
+    
+    .desenhos-4{
+        margin-top: 80px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .desenhos-2{
+        margin-top: 20px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .divisao-4{
+        margin-top: 400px;
+    }
+    
+    .divisao-3{
+        margin-left: 15px;
+        align-items: center;
+    }
+    
+    .birosca{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .negocio{
+        width: 450px;
+        margin-top: 30px;
+    }
+    
+    .desenhos-3{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .desenhos-5{
+        margin-top: 25px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .divisao-15{
+        margin-top: 1000px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+        width: 1150px;
+        height: 1400px;
+    }
+    
+    .desenhos-15{
+        margin-top: 25px;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .localiza{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .conteiner{
+        width: 100%;
+        height: 8200px;
+        color: white;
+        background-color: #282828;
+    }
+    
+    .menu{
+        display: flex;
+        flex-direction: row;
+        width: 99%;
+        height: 110px;
+        margin-left: -25px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inicio{
+        width: 992px;
+    }
+    
+    li{
+        display: flex;
+        justify-content: center;
+        width: 190px;
+        list-style-type: none;
+        margin-left: -25px;
+        color: white;
+    }
+    
+    .tatto{
+        display: flex;
+        flex-direction: column;
+        width: 992px;
+    }
+    
+    .tipos{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .tatuagem-1{
+        width: 150px;
+        margin-top: 45px;
+    }
+    
+    .tatuagem-1:hover{
+        width: 200px;
+        margin-top: 45px;
+    }
+    
+   .desenhos-4{
+        margin-top: -900px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .desenhos-2{
+        margin-top: 20px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .desenhos-3{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .desenhos-5{
+        margin-top: 250px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .divisao-15{
+        margin-top: 1000px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+        width: 960px;
+        height: 1400px;
+    }
+    
+    .desenhos-15{
+        margin-top: 25px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .conteiner{
+        width: 768px;
+        height: 6900px;
+        color: white;
+        background-color: #282828;
+    }
+    
+    .menu{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 110px;
+        margin-left: 3px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #logo{
+        width: 100px;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .inicio{
+        width: 768px;
+    }
+    
+    li{
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        list-style-type: none;
+        margin-left: 3px;
+        color: white;
+    }
+    
+    .divisao{
+        width: 100%;
+        height: 800px;
+    }
+    
+    .divisao-2{
+        width: 100%;
+        margin-top: -350px;
+        height: 2510px;
+    }
+    
+    .desenhos{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tatto{
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+    }
+    
+    .tipos{
+        width: 768px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .tatuagem-1{
+        width: 125px;
+        margin-top: 45px;
+    }
+    
+    .tatuagem-1:hover{
+        width: 150px;
+        margin-top: 45px;
+    }
+    
+    .desenhos-4{
+        margin-top: -970px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .desenhos-2{
+        margin-top: 20px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .divisao-3{
+        margin-left: 15px;
+        align-items: center;
+    }
+
+    .sp{
+        display: flex;
+        width: 5px;
+    }
+    
+    .localiza{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .loca{
+        width: 450px;
+    }
+
+    .ender{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        width: 50%;
+    }
+    
+    .negocio{
+        width: 450px;
+        margin-top: 30px;
+    }
+    
+    .desenhos-3{
+        margin-top: -3px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .desenhos-5{
+        margin-top: 25px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .divisao-15{
+        margin-top: -800px;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+        width: 745px;
+        height: 1600px;
+    }
+}
+
+@media only screen and (max-width: 562px) {
+    .conteiner{
+        width: 2000px;
+        height: 8200px;
+        color: white;
+        background-color: #282828;
+        border: 10px solid red;
+    }
+    
+    .menu{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 560px;
+        margin-left: 3px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .inicio{
+        width: 1970px;
+    }
+    
+    li{
+        display: flex;
+        justify-content: center;
+        width: 560px;
+        list-style-type: none;
+        margin-left: 35px;
+        color: white;
+    }
+      
+    .divisao{
+        width: 100%;
+        height: 800px;
+    }
+    
+    .divisao-2{
+        width: 100%;
+        margin-top: -150px;
+        height: 2510px;
+    }
+    
+    .desenhos{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tatto{
+        display: flex;
+        flex-direction: column;
+        width: 1900px;
+    }
+    
+    .doi{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+    }
+    
+    .dodoi{
+        width: 300px;
+    }
+    
+    .descricao{
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tipos{
+        display: flex;
+        flex-direction: row;
+        width: 562px;
+    }
+    
+    .tatuagem-1{
+        width: 280px;
+        margin-top: 45px;
+    }
+    
+    .tatuagem-1:hover{
+        width: 300px;
+        margin-top: 45px;
+    }
+    
+    .desenhos-4{
+        margin-top: 80px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .desenhos-2{
+        margin-top: 20px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .divisao-3{
+        margin-left: 15px;
+        align-items: center;
+    }
+    
+    .birosca{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .negocio{
+        width: 450px;
+        margin-top: 30px;
+    }
+    
+    .desenhos-3{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .desenhos-5{
+        margin-top: 25px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .divisao-15{
+        margin-top: 1000px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+        width: 1400px;
+        height: 1400px;
+    }
+    
+    .desenhos-15{
+        margin-top: 25px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .loca{
+        width: 580px;
+    }
+    
+    .sp{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    .ender{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        width: 50%;
+    }
+    
+    .localiza{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    #logo-2{
+        width: 150px;
+        height: auto;
+        margin-left: 25px;
+    }
+    
+    footer{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .pe{
+        width: 100%;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 110px;
+        margin-left: 3px;
+        justify-content: center;
+        align-items: center;
+    }
+    form {
+        width: 1300px;
+        height: 1300px;
+        border: 5px solid rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 8px;
+    }
+}
